@@ -11,7 +11,7 @@ class Contacts extends Controller
 
   public function index()
   {
-    // Get countries
+    // Get contacts
     $contacts = $this->contactModel->getContacts();
 
     // Make the data available in the view
