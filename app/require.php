@@ -10,6 +10,8 @@ require_once 'views/includes/navbar.php';
 
 // Maak een instantie van de Core class
 $init = new Core();
+// Require link
+require_once 'views/includes/link.php';
 
 // Require footer
 require_once 'views/includes/footer.php';
