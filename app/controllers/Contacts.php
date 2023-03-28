@@ -18,11 +18,11 @@ class Contacts extends Controller
     $rows = '';
     foreach ($contacts as $value) {
       $rows .= "<tr>
-                  <td>$value->id</td>
-                  <td>" . htmlentities($value->Email, ENT_QUOTES, 'ISO-8859-1') . "</td>
-                  <td>" . number_format($value->Mobile, 0, ',', '.') . "</td>
-                  <td><a href='" . URLROOT . "/contacts/update/$value->id'>update</a></td>
-                  <td><a href='" . URLROOT . "/contacts/delete/$value->id'>delete</a></td>
+                  <td>$value->Id</td>
+                  <td>" . $value->Email . "</td>
+                  <td>" . $value->Mobile . "</td>
+                  <td><a href='" . URLROOT . "/contacts/update/$value->Id'>update</a></td>
+                  <td><a href='" . URLROOT . "/contacts/delete/$value->Id'>delete</a></td>
                 </tr>";
     }
 
