@@ -10,5 +10,10 @@
 		{
 			$this->view('orders/index');
 		}
+
+        public function overview() 
+		{
+			$this->view('orders/overview');
+		}
 	}
 ?>
