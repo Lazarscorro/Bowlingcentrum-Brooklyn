@@ -19,7 +19,7 @@
                     <a class="nav-link" href="#">Scoring</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="<?= URLROOT ?>/contacts/index.php">Contact</a>
                 </li>
             </ul>
         </div>
