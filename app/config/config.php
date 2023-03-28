@@ -8,4 +8,5 @@ define('APPROOT', dirname(dirname(__FILE__)));
 
 define('URLROOT', 'Jouw URL hier');
 
+
 define('SITENAME', 'sitenaam hier');
