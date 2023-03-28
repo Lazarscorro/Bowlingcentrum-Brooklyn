@@ -5,7 +5,7 @@ Reservation
 To make a reservation, simply visit our website at www.bowlingcentrumbrooklyn.com and select the "Reservations" tab. You can choose the date, time, and number of lanes you require, and we'll take care of the rest.
 
 Contact
-If you have any questions or need to update your information, please feel free to contact our friendly staff. You can call us at +1 (555) 123-4567 and we'll be happy to assist you.
+If you have any questions or need to update your information, please feel free to contact our friendly staff. We'll be happy to assist you.
 
 Scoring
 Our bowling alley features cutting-edge scoring technology, making it easy to keep track of your game. You'll receive automatic scoring updates as you play, ensuring a seamless and enjoyable experience.
