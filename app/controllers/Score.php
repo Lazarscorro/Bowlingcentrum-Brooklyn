@@ -1,18 +1,17 @@
 <?php
 // PersoonController.php
-
 class Score extends Controller
 {
-  private $persoonModel;
+  public $PersoonModel;
 
   public function __construct()
   {
-    $this->persoonModel = new PersoonModel();
+    $this->PersoonModel = new PersoonModel();
   }
 
   public function index()
   {
-    $personen = $this->persoonModel->get_personen_scores_reserveringen();
+    $personen = $this->PersoonModel->get_personen_scores_reserveringen();
     require_once 'views/persoon/index.php';
   }
 
@@ -27,20 +26,20 @@ class Score extends Controller
     $achternaam = $_POST['achternaam'];
     $leeftijd = $_POST['leeftijd'];
 
-    $this->persoonModel->createPersoon($naam, $achternaam, $leeftijd);
+    $this->PersoonModel->createPersoon($naam, $achternaam, $leeftijd);
 
     header('Location: index.php');
   }
 
   public function edit($id)
   {
-    $persoon = $this->persoonModel->getPersoonById($id);
+    $persoon = $this->PersoonModel->getPersoonById($id);
 
     require_once 'views/persoon/edit.php';
   }
   // Testcase persoonbyid
   //   public function showPersoon($id) {
-  //     $persoon = $this->persoonModel->getPersoonById($id);
+  //     $persoon = $this->PersoonModel->getPersoonById($id);
   //     $this->view('persoon/show', ['persoon' => $persoon]);
   // }
 
@@ -51,14 +50,14 @@ class Score extends Controller
     $achternaam = $_POST['achternaam'];
     $leeftijd = $_POST['leeftijd'];
 
-    $this->persoonModel->updatePersoon($id, $voornaam, $achternaam, $leeftijd);
+    $this->PersoonModel->updatePersoon($id, $voornaam, $achternaam, $leeftijd);
 
     header('Location: index.php');
   }
 
   public function delete($id)
   {
-    $this->persoonModel->deletePersoon($id);
+    $this->PersoonModel->deletePersoon($id);
 
     header('Location: index.php');
   }

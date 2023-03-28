@@ -1,25 +1,41 @@
-<?php echo $data["title"]; ?>
+<!DOCTYPE html>
+<html>
 
-<a href="<?= URLROOT; ?>/Score/create">Nieuw land toevoegen</a>
+<head>
+    <title>CRUD Page</title>
+</head>
 
-<?php
-// haal alle personen op uit de database
-$personen = $this->persoonModel->get_personen_scores_reserveringen();
+<body>
+    <h1>CRUD Page</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Voornaam</th>
+                <th>Achternaam</th>
+                <th>Leeftijd</th>
+                <th>Score</th>
+                <th>Datum</th>
+                <th>Acties</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($personen as $persoon): ?>
+            <tr>
+                <td><?= $persoon->voornaam ?></td>
+                <td><?= $persoon->achternaam ?></td>
+                <td><?= $persoon->leeftijd ?></td>
+                <td><?= $persoon->score ?></td>
+                <td><?= $persoon->datum ?></td>
+                <td>
+                    <a href="<?=URLROOT?>('persoon/edit/' . $persoon->id) ?>">Bewerken</a>
+                    <a href="<?=URLROOT?>('persoon/delete/' . $persoon->id) ?>"
+                        onclick="return confirm('Weet je zeker dat je deze persoon wilt verwijderen?')">Verwijderen</a>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+    <a href="<?= URLROOT?>('persoon/create') ?>">Nieuwe persoon toevoegen</a>
+</body>
 
-// loop door alle personen en maak een tabelrij voor elke persoon
-foreach ($personen as $persoon) {
-    echo '<tr>';
-    echo '<td>' . $persoon['id'] . '</td>';
-    echo '<td>' . $persoon['voornaam'] . '</td>';
-    echo '<td>' . $persoon['achternaam'] . '</td>';
-    echo '<td>' . $persoon['leeftijd'] . '</td>';
-    echo '<td><a href="edit.php?id=' . $persoon['id'] . '">Bewerken</a></td>';
-    echo '<td><a href="delete.php?id=' . $persoon['id'] . '">Verwijderen</a></td>';
-    echo '</tr>';
-}
-
-// voeg een knop toe om een nieuwe persoon toe te voegen
-echo '<a href="add.php">Nieuwe persoon toevoegen</a>';
-?>
-
-<a href="<?= URLROOT; ?>/homepages/index">terug</a>
+</html>
