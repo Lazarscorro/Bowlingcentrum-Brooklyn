@@ -6,7 +6,7 @@ class Score extends Controller
 
   public function __construct()
   {
-    $this->PersoonModel = new PersoonModel();
+    $this->PersoonModel = $this->Model('PersoonModel');
   }
 
   public function index()
