@@ -20,9 +20,7 @@
                 </div>
             </div>
             <div class="card col-sm bg-transparent text-white" style="width: 18rem;">
-                <img class="card-img-top" style="max-height: 50%" ;
-                    src=" https://www.engramium.com/wp-content/themes/EngramiumTTTwo/assets/images/contact.png"
-                    alt="Card image cap">
+                <img class="card-img-top" style="max-height: 50%" ; src=" https://www.engramium.com/wp-content/themes/EngramiumTTTwo/assets/images/contact.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -32,9 +30,7 @@
                 </div>
             </div>
             <div class="card col-sm bg-transparent text-white" style="width: 18rem;">
-                <img class="card-img-top"
-                    src="https://www.welingelichtekringen.nl/wp-content/uploads/2021/09/147813275.jpg"
-                    alt="Card image cap">
+                <img class="card-img-top" src="https://www.welingelichtekringen.nl/wp-content/uploads/2021/09/147813275.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the

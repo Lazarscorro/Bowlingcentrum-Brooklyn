@@ -1,5 +1,5 @@
 <?php echo $data["title"]; ?>
-
+<!-- show values and send to create a new contact -->
 <a href="<?= URLROOT; ?>/contacts/create">Nieuw contact toevoegen</a>
 
 <table>
