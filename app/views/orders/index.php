@@ -61,7 +61,7 @@
       </div>
     </li>
     <li class="cards_item">
-      <div class="card">
+      <div class="card"> 
         <div class="card_image"><img src="/img/crepe2.png"></div>
         <div class="card_content">
           <h2 class="card_title">Crepe chocolate 2 stuks</h2>
