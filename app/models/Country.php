@@ -8,7 +8,7 @@ class Country
     $this->db = new Database();
   }
 
-  public function getCountries()
+  public function getScore()
   {
     $this->db->query("SELECT * FROM `country`;");
 

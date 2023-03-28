@@ -2,7 +2,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'jou db naam hier');
+define('DB_NAME', 'BowlingCenter');
 
 define('APPROOT', dirname(dirname(__FILE__)));
 

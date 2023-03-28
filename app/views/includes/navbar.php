@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="<?= URLROOT ?>/homepages/index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Reservate</a>
@@ -16,9 +16,9 @@
                     <a class="nav-link" href="#">Order</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Scoring</a>
+                    <a class="nav-link" href="<?= URLROOT ?>/score/index.php">Score</a>
                 </li>
-                <li class="nav-item">
+                <li class=" nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
