@@ -2,6 +2,8 @@
 class Countries extends Controller
 {
 
+  private $countryModel;
+
   public function __construct()
   {
     $this->countryModel = $this->model('Country');
