@@ -13,10 +13,10 @@
                     <a class="nav-link" href="#">Reservate</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Order</a>
+                    <a class="nav-link" href="#">Order</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Scoring</a>
+                    <a class="nav-link" href="#">Scoring</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
