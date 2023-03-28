@@ -81,7 +81,7 @@ class Contacts extends Controller
       try {
         $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
-        $this->contactModel->createContacts($_POST);
+        $this->contactModel->createContact($_POST);
 
         header('Location: ' . URLROOT . '/contacts/index');
       } catch (PDOException $e) {

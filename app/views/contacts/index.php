@@ -1,12 +1,12 @@
 <?php echo $data["title"]; ?>
 
-<a href="<?= URLROOT; ?>/countries/create">Nieuw land toevoegen</a>
+<a href="<?= URLROOT; ?>/contacts/create">Nieuw contact toevoegen</a>
 
 <table>
   <thead>
     <th>id</th>
-    <th>Land</th>
-    <th>hoofdstad</th>
+    <th>email</th>
+    <th>mobile</th>
   </thead>
   <tbody>
     <?= $data['contacts'] ?>

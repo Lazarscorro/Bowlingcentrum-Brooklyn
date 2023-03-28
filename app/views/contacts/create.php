@@ -1,30 +1,18 @@
 <?= $data['title'] ?>
 
-<form action="<?= URLROOT ?>/countries/create" method="POST">
+<form action="<?= URLROOT ?>/contacts/create" method="POST">
     <table>
         <tbody>
             <tr>
                 <td>
-                    <label for="name">Naam van het land</label>
-                    <input type="text" name="name" id="name">
+                    <label for="email">email</label>
+                    <input type="text" name="email" id="email">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label for="capitalCity">Hoodstad van het land</label>
-                    <input type="text" name="capitalCity" id="capitalCity">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="continent">Continent van het land</label>
-                    <input type="text" name="continent" id="continent">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="population">Aantal inwoners</label>
-                    <input type="number" name="population" id="population">
+                    <label for="mobile">mobiele nummer</label>
+                    <input type="number" name="mobile" id="mobile">
                 </td>
             </tr>
             <tr>
