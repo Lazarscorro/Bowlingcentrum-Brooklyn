@@ -10,4 +10,6 @@ define('APPROOT', dirname(dirname(__FILE__)));
 define('URLROOT', 'http://bcb.com');
 
 
-define('SITENAME', 'BowlingCenterBrooklyn');
+
+define('SITENAME', 'BowlingCenter Brooklyn');
+

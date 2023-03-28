@@ -7,13 +7,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="<?= URLROOT ?>/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Reservate</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Order</a>
+                    <a class="nav-link" href="<?= URLROOT ?>/orders/index">Bestellingen</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Scoring</a>
