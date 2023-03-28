@@ -1,0 +1,5 @@
+/* gradient background color */
+body {
+    background: rgb(7,48,245);
+    background: linear-gradient(0deg, rgba(7,48,245,1) 0%, rgba(0,0,0,1) 100%);
+}
